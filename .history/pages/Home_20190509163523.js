@@ -76,7 +76,7 @@ export default class Home extends Component{
               style={{marginRight:12}}
           />
           <Text style={{fontSize:48}}>
-            {!this.state.weatherData.temperature ? '0' : this.state.weatherData.temperature}&#176;C
+            {this.state.weatherData.temperature}&#176;C
           </Text>
         </View>
         <Text style={[globalStyle.nameLeft, globalStyle.paddingLeftValue, globalStyle.mb10]}>{this.state.weatherData.summary}</Text>

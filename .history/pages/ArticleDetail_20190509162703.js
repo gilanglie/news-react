@@ -15,7 +15,7 @@ import {Circle, Rect} from 'react-native-svg'
 import Fetch from '../services/Fetch';
 
 const FetchData = new Fetch({
-  host: 'https://news.gilanglie.com',
+  host: 'https://news.gilanglie.com/',
   port: '443'
 })
 export default class ArticleDetail extends Component{
